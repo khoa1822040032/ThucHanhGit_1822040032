@@ -1,0 +1,41 @@
+/* Thiết lập chung cho toàn bộ trang web */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Phần tiêu đề */
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Nội dung chính */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề cấp 2 */
+h2 {
+    color: #2563eb;
+}
+
+/* Đoạn văn */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
